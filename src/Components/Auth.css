@@ -1,0 +1,361 @@
+/* СТИЛИ ДЛЯ СТРАНИЦЫ АВТОРИЗАЦИИ */
+
+.signin{
+    position: relative;/* СТИЛИ ДЛЯ СТРАНИЦЫ АВТОРИЗАЦИИ */
+
+.signin{
+    position: relative;
+  }
+  .signin-bg{
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .signin-content{
+  padding-top: 80px;
+  padding-bottom: 100px;
+  }
+  .signin-card{
+    background: #FFFFFF;
+    box-shadow: 0px 14px 15px rgba(127, 133, 147, 0.05);
+    border-radius: 30px;
+    position: relative;
+  }
+  .signin-card-content{
+    padding: 30px;
+  }
+  .signin-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .signForm{
+    flex: 0 1 40%;
+  }
+  .signForm-mainTitle{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 120%;
+    color: #1F2327;
+  }
+  .already{
+    display: flex;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: 16px;
+  }
+  .already-text{
+    color: #1F2327;
+  }
+  .already-href{
+    color: #FF8845;
+    margin-left: 5px;
+  }
+  .signInput{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(142, 155, 158, 0.15);
+    border-radius: 20px;
+    padding: 10px 18px;
+    margin-top: 16px;
+    outline: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #1F2327;
+  }
+  .signInput.name{
+    margin-top: 30px;
+  }
+  .signInput-group{
+    position: relative;
+  }
+  .password-opened-eye{
+    position: absolute;
+    right: 9px;
+    top: 28px;
+    cursor: pointer;
+  }
+  .signin-button{
+    background: transparent;
+    border: none;
+  }
+  .regInput{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(142, 155, 158, 0.15);
+    border-radius: 20px;
+    padding: 10px 18px;
+    margin-top: 16px;
+    outline: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #1F2327;
+  }
+  .regInput.name{
+    margin-top: 30px;
+  }
+  
+  @media(max-width:1170px){
+    .signin-row{
+      flex-direction: column-reverse;
+    }
+    .signInput{
+      width: 100%;
+    }
+    .regForm{
+      flex: 0 1 100%;
+      width: 100%;
+    }
+    .regForm-mainTitle{
+      margin-left:auto;
+      margin-right:auto;
+      text-align:center;
+      padding-top: 20px;
+    }
+    .signin-banner{
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+  }
+  @media(max-width:806px){
+    .signin-banner{
+      height: 300px;
+    }
+    .grey-button{
+      width: 100%;
+      justify-content: space-between;
+    }
+    .signin-button{
+      width: 100%;
+    }
+  }
+  @media(max-width:563px){
+    .signin-banner{
+      height: 200px;
+    }
+    .signin-content{
+      padding: 0;
+    }
+    .signin._container{
+      padding: 0;
+    }
+    .signin-card{
+      border-radius: 0px;
+    }
+  }
+  @media(max-width:448px){
+    .signin-banner{
+      height: 150px;
+    }
+  }
+
+
+  /* СТИЛИ ДЛЯ СТРАНИЦЫ РЕГИСТРАЦИЯ */
+
+.register{
+  position: relative;
+}
+.register-bg{
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.register-content{
+padding-top: 80px;
+padding-bottom: 100px;
+}
+.register-card{
+  background: #FFFFFF;
+  box-shadow: 0px 14px 15px rgba(127, 133, 147, 0.05);
+  border-radius: 30px;
+  position: relative;
+}
+.register-card-content{
+  padding: 30px;
+}
+.register-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.regForm{
+  flex: 0 1 40%;
+}
+.regForm-mainTitle{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 120%;
+  color: #1F2327;
+}
+.already{
+  display: flex;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  margin-top: 16px;
+}
+.already-text{
+  color: #1F2327;
+}
+.already-href{
+  color: #FF8845;
+  margin-left: 5px;
+}
+.regInput{
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid rgba(142, 155, 158, 0.15);
+  border-radius: 20px;
+  padding: 10px 18px;
+  margin-top: 16px;
+  outline: none;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #1F2327;
+}
+.regInput.name{
+  margin-top: 30px;
+}
+.reg-divider{
+  height: 1px;
+  width: 100%;
+  background: rgba(142, 155, 158, 0.15);
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+.regInput-group{
+  position: relative;
+}
+.password-opened-eye{
+  position: absolute;
+  right: 9px;
+  top: 28px;
+  cursor: pointer;
+}
+
+.reg-checkbox-group{
+  margin-top: 24px;
+}
+.reg-checkbox{
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.reg-checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.reg-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 2px;
+  margin-right: 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+  cursor: pointer;
+}
+.reg-checkbox:checked+label::before {
+  border-color: #FF8845;
+  background-color: #FF8845;
+  background-image: url("../Img/Registration/check.png");
+}
+.reg-checkbox-label{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #1F2327;
+  max-width: 300px;
+}
+.reg-checkbox-label-href{
+  color: #FF8845;
+}
+.reg-button{
+  background: transparent;
+  border: none;
+}
+
+@media(max-width:1170px){
+  .register-row{
+    flex-direction: column-reverse;
+  }
+  .reg-checkbox-label{
+    width: 100%;
+    max-width: 100%;
+  }
+  .register-banner{
+    width: 100%;
+      height: 500px;
+      object-fit: cover;
+      border-radius: 30px;
+  }
+}
+@media(max-width:806px){
+  .register-banner{
+    height: 300px;
+  }
+  .grey-button{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .reg-button{
+    width: 100%;
+  }
+}
+@media(max-width:563px){
+  .register-banner{
+    height: 200px;
+  }
+  .register-content{
+    padding: 0;
+  }
+  .register._container{
+    padding: 0;
+  }
+  .register-card{
+    border-radius: 0px;
+  }
+  .reg-divider{
+    margin-top: 20px;
+    margin-bottom: 4px;
+  }
+}
+@media(max-width:448px){
+  .register-banner{
+    height: 150px;
+  }
+}
